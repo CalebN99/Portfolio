@@ -1,0 +1,57 @@
+.projects_component {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../assets/forest-background.jpg');
+    height: 100vh;
+}
+
+.projects_container {
+    margin-top: 1em;
+    height: 80vh;
+}
+
+
+.project_h1 {
+    color: white;
+    text-align: center;
+}
+
+.project {
+    width: 65em;
+    height: 45em;
+    overflow: auto;
+    background-color: #F0F0F0;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.project p {
+    padding-top: 1em;
+    width: 50em;
+    text-align: left;
+    font-size: 1.10em;
+    font-weight: 400;
+}
+#parent_carousel {
+    width: 75vw;
+    margin: 0 auto;
+    padding-bottom: 3em;
+}
+
+#child_carousel {
+    width: 52em;
+    margin: 0 auto;
+    
+    max-height: 405.33px;
+}
+
+.github-icon-projects {
+    color: black;
+    margin-left: 3em;
+    margin-right: .3em;
+}
+
+.project a {
+    color: black;
+    text-decoration: none;
+    float: right;
+}

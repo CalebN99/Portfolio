@@ -1,0 +1,8 @@
+.nav_componenet {
+    width: 100vw;
+    padding-left: 1em;
+}
+.nav-link {
+    color: white !important;
+    font-size: 1.25em !important;
+}

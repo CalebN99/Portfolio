@@ -1,0 +1,34 @@
+.home_component {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../assets/forest-background.jpg');
+    height: 100vh;
+}
+
+.self-portrait {
+    width: 25em;
+    margin: 0 auto;
+    display: block;
+    margin-top: 3em;
+    border-radius: 1em;
+    border: 1px solid black;
+
+    
+}
+.home-title {
+    color: white;
+    text-align: center;
+}
+
+.icons {
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+}
+.github-icon {
+    font-size: 2.5em;
+    margin: .25em;
+}
+
+.linkedin-icon {
+    font-size: 2.5em;
+    margin: .25em;
+}
