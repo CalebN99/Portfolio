@@ -1,8 +1,16 @@
 .nav_componenet {
-    width: 100vw;
+    width: fit-content;
     padding-left: 1em;
 }
 .nav-link {
     color: white !important;
     font-size: 1.25em !important;
+}
+
+.nav-link:hover {
+    text-decoration: underline orange;
+}
+
+.navbar-nav > .active > a {
+    text-decoration: underline orange;
 }

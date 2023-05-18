@@ -4,11 +4,9 @@ import portrait from "../../assets/self-image.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-import Nav from "../nav/Nav";
 function Home() {
   return (
     <div className="home_component">
-      <Nav />
       <div className="selfPortrait-container">
         <img src={portrait} alt="Self portrait" className="self-portrait" />
         <h1 className="home-title">Junior Software Developer</h1>
