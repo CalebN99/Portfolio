@@ -24,7 +24,7 @@ function Interests() {
             experiences such as attending the annual SEMA show in Las Vegas.
           </p>
 
-          <Carousel id="child_carousel">
+          <Carousel id="child_carousel" interval={null}>
             <Carousel.Item>
               <img
                 src={require("../../assets/auto_detail/auto_1.jpeg")}
@@ -54,7 +54,7 @@ function Interests() {
             body recomposition.
           </p>
 
-          <Carousel id="child_carousel">
+          <Carousel id="child_carousel" interval={null}>
             <Carousel.Item>
               <img
                 src={require("../../assets/fitness/fitness_1.jpeg")}
@@ -85,7 +85,7 @@ function Interests() {
             32GB DDR4 RAM, two 500GB SSD's, and a 2TB HDD.
           </p>
 
-          <Carousel id="child_carousel">
+          <Carousel id="child_carousel" interval={null}>
             <Carousel.Item>
               <img
                 src={require("../../assets/gaming/gaming_1.jpeg")}

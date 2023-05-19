@@ -58,6 +58,7 @@ img {
     width: auto;
     max-width: 100%;
     height: auto !important;
+    border-radius: 1em;
 }
 
 @media only screen and (max-width: 885px) {
