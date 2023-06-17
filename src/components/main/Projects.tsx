@@ -29,7 +29,7 @@ function Projects() {
             Quote calculation system giving customers a tool to get a detail
             quote for their automobile efficiently. Gives staff the ability to
             view quotes, pull quotes to a csv file for marketing, and to update
-            all pricing.{" "}
+            all pricing. Application was just launched and has generated more leads which has lead to more sales.{" "}
           </p>
 
           <Carousel id="child_carousel">
@@ -54,10 +54,10 @@ function Projects() {
           </Carousel>
 
           <p className="">
-            Working with client to plan and develop a custom software solution
+            Worked with client to plan, develop, and deploy a custom software solution
             for their business. Building project from start to finish using the
-            MERN stack (MongoDB, Express, React, Node). This is my college
-            capstone project and I'm building it solo.
+            MERN stack (MongoDB, Express, React, Node), it was deployed using Heroku. This is my college
+            capstone project along with it being a freelance project.
           </p>
         </div>
 
