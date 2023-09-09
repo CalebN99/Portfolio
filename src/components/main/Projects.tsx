@@ -116,7 +116,7 @@ function Projects() {
           </p>
         </div>
         <div className="project">
-          <h2>Movies-R-Us (Practice Project)</h2>
+          <h2>Movie Database (Practice Project)</h2>
           <a
             target="_blank"
             href="https://github.com/CalebN99/Movies-R-Us"
@@ -126,8 +126,8 @@ function Projects() {
             Github
           </a>
           <p>
-            Solo project practicing React. Uses the open movie database api.
-            Pulls a bunch of movies, allows you to filter by genre, sort by
+            Solo project practicing React and Typescript. Uses the open movie database api.
+            Pulls lists of movies by genre with default being most popular, allows you to select genre, sort by
             popularity and rating, and click on a movie to view a description
             and the rating of the movie.
           </p>
@@ -136,28 +136,21 @@ function Projects() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require("../../assets/movies_r_us/movies_1.png")}
+                src={require("../../assets/movies/movie_1.png")}
                 alt="First slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require("../../assets/movies_r_us/movies_2.png")}
+                src={require("../../assets/movies/movie_2.png")}
                 alt="Second slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require("../../assets/movies_r_us/movies_3.png")}
-                alt="Third slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={require("../../assets/movies_r_us/movies_4.png")}
+                src={require("../../assets/movies/movie_3.png")}
                 alt="Third slide"
               />
             </Carousel.Item>
