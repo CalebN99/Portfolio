@@ -67,7 +67,7 @@ function Projects() {
           <h2>Movie Database (Practice Project)</h2>
           <a
             target="_blank"
-            href="https://github.com/CalebN99/Movies-R-Us"
+            href="https://github.com/CalebN99/typescript_prac_tmdb"
             rel="noreferrer"
           >
             <FontAwesomeIcon icon={faGithub} className="github-icon-projects" />
