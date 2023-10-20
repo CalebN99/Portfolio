@@ -2,7 +2,7 @@
 
 .self-portrait {
     width: auto;
-    height: 60em;
+    height: 30em;
     margin: 0 auto;
     display: block;
     margin-top: 3em;
@@ -33,7 +33,7 @@
 
 @media only screen and (max-width: 490px) {
     .self-portrait {
-        width: 14em;
+        height: 18em;
         margin: 0 auto;
         display: block;
         margin-top: 3em;
