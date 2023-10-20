@@ -1,7 +1,8 @@
 
 
 .self-portrait {
-    width: 25em;
+    width: auto;
+    height: 60em;
     margin: 0 auto;
     display: block;
     margin-top: 3em;
