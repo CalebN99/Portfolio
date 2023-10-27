@@ -1,0 +1,50 @@
+.experience_block {
+    width: 43em;
+    height: auto;
+    margin-bottom: .5em;
+}
+
+.exp_date{
+    display: inline-block;
+    font-size: 1em;
+    padding-right: 1em;
+    color: rgb(157, 156, 156);
+    font-weight: 500;
+    vertical-align: top;
+    margin-top: .3em;
+    width: 10em;
+}
+
+.experience_info {
+    display: inline-block;
+    vertical-align: top;
+
+    width: 25em;
+}
+.experience_info p{
+   color: white;
+   font-size: 1.25em;
+   margin: 0;
+   font-weight: 500;
+}
+
+.exp_company {
+    color:orange !important;
+    font-size: 1em !important;
+    font-weight: 500 !important;
+}
+
+.exp_list {
+    color: white;
+    padding: 0;
+    --gutter: .5em;
+}
+
+.exp_list li {
+    margin-bottom: .25em;
+    padding-left: var(--gutter);
+}
+
+.exp_list li::marker {
+    content: "-";
+}
