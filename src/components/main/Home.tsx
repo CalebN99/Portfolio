@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import Experience from "../sub/Experience";
+
+import Project from "../sub/Project";
 import exp from "constants";
 let experience = [
   {
@@ -35,10 +37,65 @@ let experience = [
       "Worked on an agile dev team consisting of interns working as devs, project manager, and scrum master.",
       "Applications I worked on consisted of a scheduling system, job board system, and mobile text alert system.",
       "Presented bug fixes and new features to all stakeholders at the end of the quarter",
-      "Full-stack development, using (PHP, mySQL, Javascript, Bootstrap, MVC PHP framework, HTML, CSS)."
+      "Full-stack development, using (PHP, mySQL, Javascript, Bootstrap, MVC PHP framework, HTML, CSS).",
     ],
   },
-  
+];
+
+let projects = [
+  {
+    title: "Dirty2Dreamy Quote Calculation System",
+    info: [
+      `Quote calculation system giving customers a tool to get a detail quote for their automobile efficiently. 
+      Gives staff the ability to view quotes, pull quotes to a csv file for marketing, and to update all pricing. 
+      Application was just launched and has generated more leads which has lead to more sales.`,
+      ` Worked with client to plan, develop, and deploy a custom software
+      solution for their business. Building project from start to finish using
+      the MERN stack (MongoDB, Express, React, Node), it was deployed using
+      Heroku. This is my college capstone project along with it being a
+      freelance project.`,
+    ],
+    images: [
+      "d2d_quote/d2d_1.png",
+      "d2d_quote/d2d_2.png",
+      "d2d_quote/d2d_3.png",
+    ],
+    github: "https://github.com/CalebN99/d2d_quote_calculator",
+    skills: "",
+  },
+  {
+    title: "Movie Database (Practice Project)",
+    info: [
+      `Solo project practicing React and Typescript. Uses the open movie
+      database api. Pulls lists of movies by genre with default being most
+      popular, allows you to select genre, sort by popularity and rating,
+      and click on a movie to view a description and the rating of the
+      movie.`,
+    ],
+    images: ["movies/movie_1.png", "movies/movie_2.png", "movies/movie_3.png"],
+    github: "https://github.com/CalebN99/typescript_prac_tmdb",
+    skills: "",
+  },
+  {
+    title: "Candology (School project)",
+    info: [
+      `Group school project of a mock ecommerce website. Users can create
+      an account to browse and purchase candles. Admins can login to to
+      view and "fulfill" orders, along with updating product quantity.`,
+      `Worked on an agile development team of 3 to develop this website in
+      a single quarter. Built using the LAMP stack (Linux, Apache, MySQL,
+      PHP), along with a php MVC framework (Fat-free). Presented project
+      at the end of the quarter and received an 100% grade on the project.`,
+    ],
+    images: [
+      "candology/cando_1.png",
+      "candology/cando_2.png",
+      "candology/cando_4.png",
+      "candology/cando_3.png",
+    ],
+    github: "https://github.com/CalebN99/candology",
+    skills: "",
+  },
 ];
 function Home() {
   return (
@@ -95,13 +152,14 @@ function Home() {
           meals.
         </p>
         <br />
-        <h3>Experience</h3>
+
         {experience.map((exp) => {
-          return (
-            <Experience experience={exp} />
-          );
+          return <Experience experience={exp} />;
         }, [])}
-       
+
+        {projects.map((proj) => {
+          return <Project proj={proj} />;
+        }, [])}
       </div>
     </div>
   );

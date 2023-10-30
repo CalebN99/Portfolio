@@ -1,0 +1,37 @@
+/* #carousel {
+  
+} */
+
+.project_block {
+    color: white;
+    width: 67em;
+    margin-bottom: 1em;
+    
+}
+
+.carousel_img {
+    width: 35em !important;
+    height: 17.5em !important;
+    border-radius: 1em;
+}
+
+#carousel {
+ width: 35em !important;
+ display: inline-block !important;
+ vertical-align: top;
+ margin-top: .5em;
+}
+
+.project_info {
+    display: inline-block !important;
+    vertical-align: top;
+    width: 27em;
+    margin-left: 1.5em;
+    margin-top: .5em;
+}
+
+.project_block a {
+    color: white !important;
+    text-decoration: none !important;
+    font-size: .75em !important;
+}
