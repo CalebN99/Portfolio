@@ -15,10 +15,6 @@
     
 }
 
-.orange-it {
-    color: orange;
-    font-weight: 500;
-}
 
 
 .home-name {
@@ -51,7 +47,7 @@
     width: 60%;
     padding: 1.25em;
     vertical-align:top;
-    position: relative;
+
     left: 40%;
 
 

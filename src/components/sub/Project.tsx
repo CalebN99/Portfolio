@@ -19,8 +19,7 @@ function Experience(props: any) {
           href={props.proj.github}
           rel="noreferrer"
         >
-          <FontAwesomeIcon icon={faGithub} className="github-icon-projects" />
-          Github
+          <FontAwesomeIcon icon={faGithub} className="github-icon-projects" /> Github
         </a>
       </h2>
 

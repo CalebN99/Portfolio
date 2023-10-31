@@ -3,11 +3,12 @@ import "../../styling/Home.css";
 import portrait from "../../assets/self-image.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+// import Resume from "../../resume/resume.pdf";
 
 import Experience from "../sub/Experience";
 
 import Project from "../sub/Project";
-import exp from "constants";
+// import exp from "constants";
 let experience = [
   {
     title: "Full-Stack Developer (Freelance / Capstone)",
@@ -104,7 +105,7 @@ function Home() {
         <div className="selfPortrait-container">
           <img src={portrait} alt="Self portrait" className="self-portrait" />
           <h1 className="home-name">Caleb Norris</h1>
-          <h2 className="home-title">Junior Software Engineer</h2>
+          <h2 className="home-title">Junior Software Developer</h2>
           <div className="icons">
             <a
               target="_blank"
@@ -130,11 +131,12 @@ function Home() {
             </a>
           </div>
         </div>
+      
       </div>
       <div className="right_box">
         <h1>Greetings,</h1>
         <p className="intro">
-          {/* <span className="orange-it">Greetings!</span>  */}
+        
           I'm Caleb Norris, a junior software engineer and new grad now based in
           South Jordan, Utah, relocating from Washingon state. I enjoy crafting
           things that live on the internet, whether that be websites,
@@ -144,7 +146,7 @@ function Home() {
         </p>
         <br />
         <p className="about">
-          Outside of <span className="orange-it">coding</span>, I enjoy spending
+          Outside of coding, I enjoy spending
           time doing various hobbies of mine! I'm a fan of the outdoors, I love
           to go hiking, fishing, camping, and more. Being a nerd, I also am a
           big PC gamer. Health is also very important to me, a lot of my time is
