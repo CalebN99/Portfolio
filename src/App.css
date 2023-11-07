@@ -10,4 +10,10 @@
     background-attachment: fixed;
     height: fit-content !important;
     
+} 
+
+@media only screen and (max-width: 600px) {
+  .home {
+    background-position: initial; 
+}
 }
