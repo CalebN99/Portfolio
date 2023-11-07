@@ -48,8 +48,8 @@
 @media only screen and (max-width: 1300px) {
   #carousel {
     display: block !important;
-    max-width: 24em !important;
-    min-width: 24em !important;
+    max-width: 40em !important;
+    min-width: 40em !important;
 
     margin: 0 auto;
   }
@@ -64,36 +64,73 @@
   }
 
   .project_block {
-    width: 24em;
+    width: 50em;
   }
 }
 
-@media only screen and (max-width: 1750px) {
-
-    .project_block h2 {
-         
-            text-align: center;
-        
-    }
+@media only screen and (max-width: 1000px) {
     #carousel {
       display: block !important;
-    
+      max-width: 35em !important;
+      min-width: 35em !important;
   
       margin: 0 auto;
     }
   
-    .project_block {
-        width: auto;
+    .carousel_img {
+      height: auto !important;
     }
- 
   
     .project_info {
       display: block !important;
-      width: 80%;
+      width: auto;
+    }
+  
+    .project_block {
+      width: 50em;
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    #carousel {
+      display: block !important;
+      max-width: 24em !important;
+      min-width: 24em !important;
+  
       margin: 0 auto;
     }
-
-    
   
+    .carousel_img {
+      height: auto !important;
+    }
   
+    .project_info {
+      display: block !important;
+      width: auto;
+    }
+  
+    .project_block {
+      width: 50em;
+    }
   }
+
+@media only screen and (max-width: 1750px) {
+  .project_block h2 {
+    text-align: center;
+  }
+  #carousel {
+    display: block !important;
+
+    margin: 0 auto;
+  }
+
+  .project_block {
+    width: auto;
+  }
+
+  .project_info {
+    display: block !important;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
