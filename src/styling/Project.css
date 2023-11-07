@@ -110,7 +110,8 @@
     }
   
     .project_block {
-      width: 100vw;
+      width: fit-content;
+      margin: 0 auto;
     }
   }
 
