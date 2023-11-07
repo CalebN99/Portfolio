@@ -11,9 +11,3 @@
   background: transparent;
     
 } 
-
-@media only screen and (max-width: 600px) {
-  .home {
-    background-position: initial; 
-}
-}
