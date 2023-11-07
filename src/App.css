@@ -9,4 +9,5 @@
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-attachment: fixed !important;
+  width: 100vw;
 }
