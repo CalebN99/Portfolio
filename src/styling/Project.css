@@ -3,44 +3,97 @@
 } */
 
 .project_block {
-    color: white;
-    width: 67em;
-    margin-bottom: 1em;
-    
+  color: white;
+  width: 67em;
+  margin-bottom: 1em;
 }
 
 .carousel_img {
-    width: 35em !important;
-    height: 17.5em !important;
-    border-radius: 1em;
+  width: 100% !important;
+  height: 17.5em !important;
+  border-radius: 1em;
+  object-fit: cover;
 }
 
 #carousel {
- width: 35em !important;
- display: inline-block !important;
- vertical-align: top;
- margin-top: .5em;
+  width: 35em !important;
+  display: inline-block !important;
+  vertical-align: top;
+  margin-top: 0.5em;
 }
 
 .project_info {
-    display: inline-block !important;
-    vertical-align: top;
-    width: 27em;
-    margin-left: 1.5em;
-    margin-top: .5em;
+  display: inline-block !important;
+  vertical-align: top;
+  width: 27em;
+  margin-left: 1.5em;
+  margin-top: 0.5em;
 }
 
 .project_block a {
-    color: white !important;
-    text-decoration: none !important;
-    font-size: .75em !important;
+  color: white !important;
+  text-decoration: none !important;
+  font-size: 0.75em !important;
 }
 
 .project_block h2 {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .github-icon-projects {
-    color: orange !important;
-    font-size: 1.05em !important;
+  color: orange !important;
+  font-size: 1.05em !important;
 }
+
+@media only screen and (max-width: 1300px) {
+  #carousel {
+    display: block !important;
+    max-width: 24em !important;
+    min-width: 24em !important;
+
+    margin: 0 auto;
+  }
+
+  .carousel_img {
+    height: auto !important;
+  }
+
+  .project_info {
+    display: block !important;
+    width: auto;
+  }
+
+  .project_block {
+    width: 24em;
+  }
+}
+
+@media only screen and (max-width: 1750px) {
+
+    .project_block h2 {
+         
+            text-align: center;
+        
+    }
+    #carousel {
+      display: block !important;
+    
+  
+      margin: 0 auto;
+    }
+  
+    .project_block {
+        width: auto;
+    }
+ 
+  
+    .project_info {
+      display: block !important;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    
+  
+  
+  }

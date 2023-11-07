@@ -154,11 +154,12 @@ function Home() {
           meals.
         </p>
         <br />
+        
 
         {experience.map((exp) => {
           return <Experience experience={exp} />;
         }, [])}
-
+        <br />
         {projects.map((proj) => {
           return <Project proj={proj} />;
         }, [])}
