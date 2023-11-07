@@ -64,7 +64,7 @@
   }
 
   .project_block {
-    width: 50em;
+    width: auto;
   }
 }
 
@@ -94,8 +94,8 @@
   @media only screen and (max-width: 650px) {
     #carousel {
       display: block !important;
-      max-width: 24em !important;
-      min-width: 24em !important;
+      max-width: 22em !important;
+      min-width: 22em !important;
   
       margin: 0 auto;
     }
