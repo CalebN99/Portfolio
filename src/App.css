@@ -6,8 +6,7 @@
 .home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("./assets//forest-background.jpg") !important;
-  background-position: center !important;
+  background-position: center center !important;
   background-repeat: no-repeat !important;
   background-attachment: fixed !important;
-  width: 100vw;
 }
