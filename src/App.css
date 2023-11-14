@@ -10,3 +10,9 @@
   background-repeat: no-repeat !important;
   background-attachment: fixed !important;
 }
+
+@media  (max-width: 650px) {
+  .home {
+    background-size: 100vw auto;
+  }
+}
