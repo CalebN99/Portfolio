@@ -13,6 +13,6 @@
 
 @media  (max-width: 650px) {
   .home {
-    background-size: 100vw auto;
+    background-position: top 100% 100% !important;
   }
 }
