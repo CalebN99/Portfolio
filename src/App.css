@@ -18,7 +18,8 @@
   
      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("./assets//forest-background.jpg") !important;
-    background-position: none !important;
+    background-position: top !important;
+    background-attachment: initial;
   
 
   }
