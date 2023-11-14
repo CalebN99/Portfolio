@@ -131,12 +131,10 @@ function Home() {
             </a>
           </div>
         </div>
-      
       </div>
       <div className="right_box">
         <h1>Greetings,</h1>
         <p className="intro">
-        
           I'm Caleb Norris, a junior software engineer and new grad now based in
           South Jordan, Utah, relocating from Washingon state. I enjoy crafting
           things that live on the internet, whether that be websites,
@@ -146,23 +144,26 @@ function Home() {
         </p>
         <br />
         <p className="about">
-          Outside of coding, I enjoy spending
-          time doing various hobbies of mine! I'm a fan of the outdoors, I love
-          to go hiking, fishing, camping, and more. Being a nerd, I also am a
-          big PC gamer. Health is also very important to me, a lot of my time is
-          spent lifting weights, doing cardio, and attempting to cook healthy
-          meals.
+          Outside of coding, I enjoy spending time doing various hobbies of
+          mine! I'm a fan of the outdoors, I love to go hiking, fishing,
+          camping, and more. Being a nerd, I also am a big PC gamer. Health is
+          also very important to me, a lot of my time is spent lifting weights,
+          doing cardio, and attempting to cook healthy meals.
         </p>
         <br />
-        
 
-        {experience.map((exp) => {
-          return <Experience experience={exp} />;
-        }, [])}
+        <div className="experience">
+          {experience.map((exp) => {
+            return <Experience experience={exp} />;
+          }, [])}
+        </div>
+
         <br />
-        {projects.map((proj) => {
-          return <Project proj={proj} />;
-        }, [])}
+        <div className="projects">
+          {projects.map((proj) => {
+            return <Project proj={proj} />;
+          }, [])}
+        </div>
       </div>
     </div>
   );
