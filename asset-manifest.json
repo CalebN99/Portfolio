@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.438d215f.css",
+    "main.css": "/Portfolio/static/css/main.90467cfb.css",
     "main.js": "/Portfolio/static/js/main.7bb87673.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/gaming_2.png": "/Portfolio/static/media/gaming_2.26af87f9c0e4bf855743.png",
@@ -23,12 +23,12 @@
     "static/media/d2d_3.png": "/Portfolio/static/media/d2d_3.5aad7019094639227dc7.png",
     "static/media/forest-background-mobile.jpg": "/Portfolio/static/media/forest-background-mobile.6b920aafd4192d0690bc.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.438d215f.css.map": "/Portfolio/static/css/main.438d215f.css.map",
+    "main.90467cfb.css.map": "/Portfolio/static/css/main.90467cfb.css.map",
     "main.7bb87673.js.map": "/Portfolio/static/js/main.7bb87673.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.438d215f.css",
+    "static/css/main.90467cfb.css",
     "static/js/main.7bb87673.js"
   ]
 }
