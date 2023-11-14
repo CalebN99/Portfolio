@@ -127,9 +127,7 @@
 .projects {
     width:fit-content !important;
 }
-.experience {
-    width: 100%;
-}
+
 @media only screen and (max-width: 490px) {
     .self-portrait {
         height: 18em;
